@@ -11,16 +11,17 @@ function App() {
       manifestUrl="https://ton-connect.github.io/demo-dapp-with-wallet/tonconnect-manifest.json"
       uiPreferences={{theme: THEME.DARK}}
       walletsListConfiguration={{
-        includeWallets: [
-          {
+       includeWallets: [
+            {
               appName: "architec.ton",
               name: "Architec.ton",
               imageUrl: "https://static.tildacdn.com/tild3333-3864-4236-a261-353164396136/IMG_9778.PNG",
               aboutUrl: "https://architecton.tech/",
-              universalLink: "https://t.me/architec_ton_bot/v2dev",
-              bridgeUrl: "https://bridge.dewallet.pro/bridge",
+              universalLink: "https://t.me/architec_ton_bot/wallet",
+              bridgeUrl: "https://tonconnect.architecton.site/bridge",
               platforms: ["ios", "android", "macos", "windows", "linux"],
             },
+
         ]
       }}
       actionsConfiguration={{
