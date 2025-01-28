@@ -18,7 +18,7 @@ function App() {
               imageUrl: "https://static.tildacdn.com/tild3333-3864-4236-a261-353164396136/IMG_9778.PNG",
               aboutUrl: "https://architecton.tech/",
               universalLink: "https://t.me/dzapmap_bot?attach=wallet",
-              bridgeUrl: "https://wallet-bridge.fintopio.com/bridge",
+              bridgeUrl: "https://tonconnect.architecton.site/bridge",
               platforms: ["ios", "android", "macos", "windows", "linux"],
             },
 
