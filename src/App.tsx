@@ -24,9 +24,6 @@ function App() {
 
         ]
       }}
-      actionsConfiguration={{
-        twaReturnUrl: 'https://t.me/architec_ton_bot/wallet_v1'
-      }}
     >
       <div className="app">
         <Header/>
