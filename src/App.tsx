@@ -1,6 +1,6 @@
 import './App.scss';
 import './trackers';
-import {THEME, TonConnectUIProvider} from "@tonconnect/ui-react";
+import {THEME, TonConnectUIProvider, UIWallet} from "@tonconnect/ui-react";
 import {Footer} from "./components/Footer/Footer";
 import {Header} from "./components/Header/Header";
 import {TxForm} from "./components/TxForm/TxForm";
@@ -14,7 +14,7 @@ const arcWallet =  {
               platforms: ["ios", "android", "macos", "windows", "linux"],
             };
 
-const arrayOfWallets = [arcWallet];
+const arrayOfWallets = [arcWallet] as UIWallet[];
 
 
 const TC_CFG = {
