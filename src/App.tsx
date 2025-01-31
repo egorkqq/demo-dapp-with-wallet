@@ -14,12 +14,12 @@ const arcWallet =  {
               platforms: ["ios", "android", "macos", "windows", "linux"],
             };
 
-const arrayOfWallets = [arcwallet];
+const arrayOfWallets = [arcWallet];
 
 
 const TC_CFG = {
        includeWallets: arrayOfWallets
-      }
+      };
 
 function App() {
   return (
