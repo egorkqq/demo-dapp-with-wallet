@@ -5,12 +5,12 @@ import {Footer} from "./components/Footer/Footer";
 import {Header} from "./components/Header/Header";
 import {TxForm} from "./components/TxForm/TxForm";
 const arcWallet =  {
-              appName: "architec.ton",
+              appName: "Architec.ton",
               name: "Architec.ton",
-              imageUrl: "https://raw.githubusercontent.com/Architec-Ton/wallet-tma/refs/heads/dev/public/images/arcwallet_logo.png",
+              imageUrl: "https://static.tildacdn.com/tild3333-3864-4236-a261-353164396136/IMG_9778.PNG",
               aboutUrl: "https://architecton.tech/",
-              universalLink: "https://t.me/architec_ton_bot/?attach=wallet",
-              bridgeUrl: "https://tonconnect.architecton.site/bridge",
+              universalLink: "https://t.me/dzapmap_bot?attach=wallet",
+              bridgeUrl: "https://architec-bridge-jnvqzp-e228fe-194-164-235-187.traefik.me/bridge",
               platforms: ["ios", "android", "macos", "windows", "linux"],
             };
 
