@@ -20,23 +20,6 @@ window.fetch = async (...args) => {
 };
 
 
-const arcWallet =  {
-              appName: "Architec.ton",
-              name: "Architec.ton",
-              imageUrl: "https://static.tildacdn.com/tild3333-3864-4236-a261-353164396136/IMG_9778.PNG",
-              aboutUrl: "https://architecton.tech/",
-              universalLink: "https://t.me/dzapmap_bot?attach=wallet",
-              bridgeUrl: "https://tonconnect.architecton.site/bridge",
-              platforms: ["ios", "android", "macos", "windows", "linux"],
-            };
-
-const arrayOfWallets = [arcWallet] as UIWallet[];
-
-
-const TC_CFG = {
-       includeWallets: arrayOfWallets
-      };
-
 function App() {
   return (
     <TonConnectUIProvider
