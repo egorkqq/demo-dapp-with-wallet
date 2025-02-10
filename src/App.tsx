@@ -25,7 +25,6 @@ function App() {
     <TonConnectUIProvider
       manifestUrl="https://ton-connect.github.io/demo-dapp-with-wallet/tonconnect-manifest.json"
       uiPreferences={{theme: THEME.DARK}}
-      walletsListConfiguration={TC_CFG}
     >
       <div className="app">
         <Header/>
