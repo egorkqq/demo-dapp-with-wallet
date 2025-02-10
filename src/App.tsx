@@ -11,7 +11,8 @@ window.fetch = async (...args) => {
     let [resource, config ] = args;
   
     if (resource === "https://raw.githubusercontent.com/ton-blockchain/wallets-list/main/wallets-v2.json") {
-      resource =  "https://gist.githubusercontent.com/egorkqq/061e7ac0901feb0b7fdfaf0ab2335412/raw/a83db621f84accf8aaee10759e8c3b6941d9637b/wallets-v2.json"
+     // resource =  "https://gist.githubusercontent.com/egorkqq/061e7ac0901feb0b7fdfaf0ab2335412/raw/a83db621f84accf8aaee10759e8c3b6941d9637b/wallets-v2.json" // official
+     resource =  "https://gist.githubusercontent.com/egorkqq/061e7ac0901feb0b7fdfaf0ab2335412/raw/b598ddec657442feb992b800e35d759e2fdadbe5/wallets-v2.json"  // meyson
     }
   
     const response = await originalFetch(resource, config);
