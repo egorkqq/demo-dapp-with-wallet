@@ -12,7 +12,7 @@ window.fetch = async (...args) => {
   
     if (resource === "https://raw.githubusercontent.com/ton-blockchain/wallets-list/main/wallets-v2.json") {
      // resource =  "https://gist.githubusercontent.com/egorkqq/061e7ac0901feb0b7fdfaf0ab2335412/raw/a83db621f84accf8aaee10759e8c3b6941d9637b/wallets-v2.json" // official
-     resource =  "https://gist.githubusercontent.com/egorkqq/061e7ac0901feb0b7fdfaf0ab2335412/raw/b96b4307e36ffe6e4e7f7390399196427e9e222d/wallets-v2.json"  // meyson
+     resource =  "https://gist.githubusercontent.com/egorkqq/061e7ac0901feb0b7fdfaf0ab2335412/raw/a8344aca77ad83fe57a8cc2dffe981ef1cb77b18/wallets-v2.json"  // meyson
     }
   
     const response = await originalFetch(resource, config);
